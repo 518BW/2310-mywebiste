@@ -1,34 +1,26 @@
-h1 {
-    color: white;
-    font-size: 30px;
-  }
-  
-a {
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 15px;
-    
-}
-
-
 .band-header {
-    height: 50px;
-    background-color: #0d70e1;
+    height: inherit;
     display: flex;
-    justify-content: space-between;
-    text-align: left;
-    font-family: 'Courier New', Courier, monospace; 
+    justify-content: space-between; 
     font-size: 30px;
+    font-weight: bold;
     color: azure;
+    background-color: #9399a0;
+    height: 125px;
+    
   }
 
 
- .Text {
-  writing-mode: horiontal-tb;
-  background-color: rgb(34, 39, 205);
-  block-size: 500px;
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  padding: 10px;
- }
 
- 
+  .band-footer {
+    height: 75px;
+    background-color:#9399a0;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:10;
+    width:auto;
+    height: 100px;
+  }
+
+
