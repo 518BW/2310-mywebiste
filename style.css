@@ -1,0 +1,53 @@
+.band-header {
+    height: inherit;
+    display: flex;
+    justify-content: space-between; 
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #9a9eae;
+    height: 125px;
+    position: relative;
+    z-index: 4;
+  }
+
+html, body{
+  margin:0;
+  position:relative;
+  padding-bottom: 100px;
+  min-height: 100vh;
+
+}
+
+
+.band-footer {
+    background-color: #9a9eae;
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    height: 100px;
+    position: relative;
+  
+  }
+
+
+.background{
+  
+  padding: 10px;
+  box-shadow: -5px 8px 25px 25px #71a4de, 5px 8px 25px 25px #71a4de;
+  background-color:#71a4de;
+  height:900px;
+  width:1000px;
+  margin:auto;
+}
+
+footer{
+    background-color: #9a9eae;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    
+    width:100%;   
+  
+}
